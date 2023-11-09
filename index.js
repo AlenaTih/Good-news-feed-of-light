@@ -135,6 +135,9 @@ onValue(goodNewsinDB, function(snapshot) {
     }
 })
 
+// for...in loop is a special kind of loop in JavaScript that is used
+// to iterate over properties (or keys) of an object
+
 function clearNewsFeedEl() {
     newsFeedEl.innerHTML = ""
 }
