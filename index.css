@@ -170,7 +170,7 @@ ul {
 li {
     font-size: 15px;
     background-color: #F9FAFB;
-    width: 320px;
+    width: 100%;
     /* max-width: 80%; */
     margin-bottom: 15px;
     margin-right: auto;
