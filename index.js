@@ -177,9 +177,7 @@ function prependNewsToNewsFeedEl(item, key) {
                 `<div class="newsItem">
                     <div class="news-data">
                         <h4>${newDate}</h4>
-                        <br><br>
                         <p>${newNews}</p>
-                        <br><br>
                         <h4>${newFrom}</h4>
                     </div>
                     <div class="like">
@@ -194,9 +192,7 @@ function prependNewsToNewsFeedEl(item, key) {
                         <img class="news-image" src="${newImage}" alt="News image">
                         <div class="news-data">
                             <h4>${newDate}</h4>
-                            <br><br>
                             <p>${newNews}</p>
-                            <br><br>
                             <h4>${newFrom}</h4>
                         </div>
                     </div>
@@ -204,7 +200,7 @@ function prependNewsToNewsFeedEl(item, key) {
                         <button class="like-button" data-key="${key}">${likesSymbol}</button>
                         <h8 class="like-me">${likesNumber}</h8>
                     </div>
-                </div>`
+            </div>`
         }
 
 
