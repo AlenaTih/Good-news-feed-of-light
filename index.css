@@ -100,9 +100,9 @@ h1 {
     gap: 10px;
 }
 
-input[type="file"] {
-    /* display: none; */
-}
+/* input[type="file"] {
+    display: none;
+} */
 
 .input-image-label {
     display: flex;
